@@ -28,8 +28,9 @@ https://www.aclweb.org/anthology/N19-1259
     ```
     python main.py --ds 14res --test 1
     ```
-    Put the sentence you want to test in "test_file.txt"
-    Put the target words in the file "target_words.txt"
+    Put the sentence you want to test in "test_file.txt".
+    Put the target words in the file "target_words.txt".
+    The results will appear in 'results.txt' file.
 
     You might have to change the name of the model to your trained model. For
     that open main.py. Go to test(). Change the model name there.
